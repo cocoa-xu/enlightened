@@ -34,6 +34,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         super.init()
         self.statusMenu.addItem(NSMenuItem.separator())
         self.statusMenu.addItem(self.quitItem)
+        self.updateMenu()
         
         NotificationCenter.default.addObserver(self, selector: #selector(handleDisplayConnection), name: NSApplication.didChangeScreenParametersNotification, object: nil)
     }
