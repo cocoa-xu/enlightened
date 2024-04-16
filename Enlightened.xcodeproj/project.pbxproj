@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CC75BCA92BCE4F6600EB4AB2 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BCA82BCE4F6600EB4AB2 /* MetalView.swift */; };
 		CC75BCAD2BCE641E00EB4AB2 /* EnlightenedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75BCAC2BCE641E00EB4AB2 /* EnlightenedScreen.swift */; };
+		CC75BCAF2BCE747000EB4AB2 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC75BCAE2BCE747000EB4AB2 /* ExportOptions.plist */; };
 		CCD61B212BCA7A6E001F8ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD61B202BCA7A6E001F8ECC /* AppDelegate.swift */; };
 		CCD61B252BCA7A6F001F8ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD61B242BCA7A6F001F8ECC /* Assets.xcassets */; };
 		CCD61B282BCA7A6F001F8ECC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CCD61B272BCA7A6F001F8ECC /* Base */; };
@@ -17,6 +18,7 @@
 /* Begin PBXFileReference section */
 		CC75BCA82BCE4F6600EB4AB2 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		CC75BCAC2BCE641E00EB4AB2 /* EnlightenedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlightenedScreen.swift; sourceTree = "<group>"; };
+		CC75BCAE2BCE747000EB4AB2 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		CCD61B1D2BCA7A6E001F8ECC /* Enlightened.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enlightened.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD61B202BCA7A6E001F8ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCD61B242BCA7A6F001F8ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				CC75BCA82BCE4F6600EB4AB2 /* MetalView.swift */,
 				CCD61B242BCA7A6F001F8ECC /* Assets.xcassets */,
 				CCD61B262BCA7A6F001F8ECC /* Main.storyboard */,
+				CC75BCAE2BCE747000EB4AB2 /* ExportOptions.plist */,
 				CCD61B292BCA7A6F001F8ECC /* Enlightened.entitlements */,
 			);
 			path = Enlightened;
@@ -124,6 +127,7 @@
 			files = (
 				CCD61B252BCA7A6F001F8ECC /* Assets.xcassets in Resources */,
 				CCD61B282BCA7A6F001F8ECC /* Base in Resources */,
+				CC75BCAF2BCE747000EB4AB2 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
