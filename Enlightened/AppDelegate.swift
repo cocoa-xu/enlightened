@@ -22,7 +22,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.menu = NSMenu.init()
         self.statusBarItem.menu = self.menu
         if let button = self.statusBarItem.button {
-            button.image = NSImage(systemSymbolName: "warninglight", accessibilityDescription: nil)
+            if #available(macOS 14.0, *) {
+                button.image = NSImage(systemSymbolName: "warninglight", accessibilityDescription: nil)
+            } else {
+                button.image = NSImage(systemSymbolName: "lamp.ceiling", accessibilityDescription: nil)
+            }
         }
         
         self.statusMenu = NSMenu(title: "EnlightenedStatusMenu")
